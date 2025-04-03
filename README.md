@@ -1,19 +1,17 @@
-# Sistema de Agencia de Viajes
+# Lorena Quiñones Rodriguez
+- [@lorena quiñones](https://www.github.com/estudiante)
+  
+##Sistema de Reservas de Hotel
 
-![commits](https://badgen.net/github/commits/UR-CC/lp2-taller1?icon=github) 
-![last_commit](https://img.shields.io/github/last-commit/UR-CC/lp2-taller1)
+###Descripción
+Este proyecto implementa un sistema de reservas de hotel utilizando Python. y principios de Programación Orientada a Objetos (POO) . Permite la gestión de clientes, habitaciones, reservas y comentarios de usuarios.
 
-- ver [badgen](https://badgen.net/) o [shields](https://shields.io/) para otros tipos de _badges_
+#Características principales
+- Gestión de clientes : Registro de clientes y búsqueda de habitaciones.
+- Reserva de habitaciones : Creación y cancelación de reservas.
+- Gestión de hoteles : Manejo de información de hoteles y sus habitaciones.
+- Comentarios y calificaciones : Los clientes pueden calificar su estadía.
 
-## Autor
-
-- [@estudiante](https://www.github.com/estudiante)
-
-## Descripción del Proyecto
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut quam dolor. Quisque elementum est sed massa gravida convallis. Donec volutpat turpis eget lectus feugiat congue. Morbi rutrum auctor eleifend. Etiam iaculis libero tellus, vel aliquet erat tempor sed. Duis efficitur quam vel sapien luctus, sed semper lacus mollis. Suspendisse non nunc eleifend, aliquet elit eget, condimentum augue.
-
-Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus vel nibh fringilla, porta elit vel, consequat libero. Nulla et libero ac nulla ultricies sollicitudin. Sed viverra non nulla id convallis. Morbi vel varius lacus, in maximus nunc. Praesent sed semper diam. Pellentesque vehicula nulla augue, ut porta dolor consequat at.
 
 ## Documentación
 
@@ -21,37 +19,51 @@ Revisar la documentación en [`./docs`](./docs)
 
 ### Requerimientos
 
-- **R1**: El sistema debe ...
-- **R2**: El sistema debe ...
-<br>...<br>
-- **Rn**: El sistema debe ...
-- **Rm**: El sistema debe ...
+- R1. El sistema debe permitir el registro de hoteles con los siguientes datos: 
+    nombre, dirección, teléfono, correo electrónico, ubicación geográfica, 
+    descripción detallada de servicios (restaurante, piscina, gimnasio), y fotos. 
+- R2. El sistema debe registrar promociones y ofertas especiales por hotel, 
+  como descuentos en temporadas específicas o paquetes especiales. 
+- R3. El sistema debe registrar las habitaciones de cada hotel con 
+    información detallada: tipo de habitación, descripción, precio, servicios 
+    incluidos, capacidad máxima y fotos. 
+- R4. El sistema debe permitir el registro de condiciones de pago y 
+      cancelación para cada hotel, como pago anticipado o al llegar, y políticas de 
+      cancelación específicas. 
+- R5. El sistema debe manejar el estado de actividad de los hoteles y 
+habitaciones (activo, inactivo por mantenimiento, remodelación o limpieza). 
+• R6. El sistema debe proporcionar calendarios detallados para cada 
+habitación, indicando las fechas en las que está reservada y las fechas 
+disponibles. 
+• R7. El sistema debe calcular y mostrar automáticamente la calificación 
+promedio de cada habitación y de cada hotel, basándose en las 
+evaluaciones de los clientes. 
+• R8. El sistema debe solicitar la siguiente información al cliente al momento 
+de registrarse: nombre completo, número de teléfono, correo electrónico y 
+dirección. 
+• R9. El sistema debe implementar una función de búsqueda de habitaciones 
+por varios criterios: fecha, ubicación, calificación, precio y combinación de 
+estos. 
+• R10. El sistema debe permitir al cliente acceder a los detalles completos de 
+una habitación antes de reservarla, incluyendo descripción, servicios, fotos, 
+calificación y comentarios de otros huéspedes. 
+• R11. El sistema debe formalizar la reserva de una habitación una vez que el 
+cliente haya confirmado su selección y realizado el pago correspondiente. 
+• R12. El sistema debe enviar notificaciones automáticas a los clientes por 
+correo electrónico o SMS, recordando fechas de reservas, confirmaciones 
+de pago y estados de las habitaciones. 
+• R13. El sistema debe garantizar la seguridad de los datos personales de 
+clientes y hoteles. 
+• R14. El sistema debe ser escalable para manejar un aumento en el número 
+de clientes, hoteles y habitaciones. 
+• R15. El sistema debe incluir un módulo para gestionar sugerencias y 
+comentarios de clientes, permitiendo mejoras continuas.
 
 ### Diseño
 
 ![Diagrama de Clases](./docs/diagramas.png)
 
 
-### Tárifas
-
-|destino|pasajes|silver|gold|platinum|
-|:---|---:|---:|---:|---:|
-|Aruba|618|134|167|191|
-|Bahamas|100|100|100|100|
-|Cancún|950|105|142|187|
-|Hawaii|100|100|100|100|
-|Jamaica|100|100|100|100|
-|Madrid|100|100|100|100|
-|Miami|834|122|151|183|
-|Moscu|100|100|100|100|
-|NewYork|1005|104|112|210|
-|Panamá|715|119|138|175|
-|Paris|100|100|100|100|
-|Rome|100|100|100|100|
-|Seul|100|100|100|100|
-|Sidney|100|100|100|100|
-|Taipei|100|100|100|100|
-|Tokio|100|100|100|100|
 ## Instalación
 
 Morbi quam lectus, tempus sit amet mi non, facilisis dignissim erat. Aenean tortor libero, rhoncus eu eleifend ut, volutpat id nisi. Ut porta eros at ante rutrum pharetra. Integer nec nulla dictum, vestibulum ligula id, hendrerit ex. Morbi eget tortor metus.
@@ -82,4 +94,3 @@ Maecenas sed lorem at arcu varius mollis. Sed eleifend nulla ut blandit interdum
 cd lpa1-taller-requerimientos
 python app.py
 ```
-
