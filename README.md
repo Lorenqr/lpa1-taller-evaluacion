@@ -1,12 +1,12 @@
 # Lorena Quiñones Rodriguez
 - [@lorena quiñones](https://www.github.com/lorenqr)
   
-#Sistema de Reservas de Hotel
+Sistema de Reservas de Hotel
 
-#Descripción
+Descripción
 Este proyecto implementa un sistema de reservas de hotel utilizando Python. y principios de Programación Orientada a Objetos (POO) . Permite la gestión de clientes, habitaciones, reservas y comentarios de usuarios.
 
-#Características principales
+Características principales
 - Gestión de clientes : Registro de clientes y búsqueda de habitaciones.
 - Reserva de habitaciones : Creación y cancelación de reservas.
 - Gestión de hoteles : Manejo de información de hoteles y sus habitaciones.
